@@ -121,7 +121,7 @@ if st.button("Predict Churn"):
 
     try:
         response = requests.post(
-            "http://127.0.0.1:8000/predict",
+            "https://customer-churn-prediction-1-qydo.onrender.com/predict",
             json=data
         )
 
